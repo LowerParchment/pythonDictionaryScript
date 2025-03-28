@@ -34,4 +34,11 @@ print("\n")
 print("\nPrint an entry that doesnt exist:\n")
 print("ValueA:\n")
 print("ValueA" in dictionary)
+
+print("\nPrint all odd elements in an Array:\n")
+array = [23, 3, 7, 4, 8]
+
+for i in array:
+    if (i % 2 == 0):
+        print(i)
   
